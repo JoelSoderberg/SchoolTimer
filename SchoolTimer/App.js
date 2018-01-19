@@ -5,15 +5,15 @@
  */
 
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  AppRegistry
-} from 'react-native';
+import { StyleSheet, Text, View, AppRegistry } from 'react-native';
+
 import CompList from './src/CompList';
 
 export default class App extends Component {
+
+  
+
+  
   render() {
     return (
         <CompList />

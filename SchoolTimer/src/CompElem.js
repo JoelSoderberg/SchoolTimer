@@ -8,11 +8,17 @@ class CompElem extends Component {
         this.state = {
             title: this.props.title, 
             id: this.props.id,
+            date: this.props.date,
             activeRowKey: null
         };
     }
 
     render () { 
+
+        var days = new Date(this.props.date);
+        var now = new Date();
+        var count = Math.round((days - now)/86400000);
+        console.log(count);
     
         const swipeSettings = {
             autoClose: true,
@@ -48,7 +54,9 @@ class CompElem extends Component {
             <View style={styles.list}>
                 <View style={styles.subList}>
                     <Text style={styles.headerText}> {this.state.title} </Text>
+                    <Text style={styles.headerSubText}> {count} Days Left </Text>
                 </View>
+                
             </View>
         </Swipeout>
         );
@@ -58,25 +66,15 @@ class CompElem extends Component {
 
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      flexDirection: 'column',
-      backgroundColor: 'white'
-    },
-    top: {
-      height: 20,
-      backgroundColor: 'white'
-    },
-    header: {
-      height: 60,
-      backgroundColor: 'white',
-      alignItems: 'center',
-      justifyContent: 'center',
-      borderBottomWidth: 0.5,
-      borderColor: 'black'
-    },
+    
     headerText: {
-      fontSize: 20,
+      fontSize: 15,
+      fontFamily: 'arial',
+      color: 'black'
+    },
+    headerSubText: {
+      paddingTop: 6,
+      fontSize: 15,
       fontFamily: 'arial',
       color: 'black'
     },
@@ -85,14 +83,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         height: 80,
+        backgroundColor: 'white'
     },
     subList: {
     flex: 1,
     flexDirection: 'column',
-    width: 300,
+    width: 250,
     alignItems: 'center',
     justifyContent: 'center',
-    borderBottomWidth: 0.5,
+    borderBottomWidth: 0.3,
+    borderBottomEndRadius: 1,
+    borderBottomStartRadius: 1,
     borderColor: 'black'
     }
   });

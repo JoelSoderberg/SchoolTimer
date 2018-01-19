@@ -1,63 +1,78 @@
 [
     {
       "id": 0,
-      "title": "Flervarre - Seminarium 24/1"
+      "title": "Flervarre - Seminarium 24/1",
+      "date": "Januari 24, 2018 08:00:00"
     },
     {
         "id": 1,
-        "title": "Databas - Övning 26/1"
+        "title": "Databas - Övning 26/1",
+        "date": "Januari 26, 2018 08:00:00"
     },
     {
         "id": 3,
-        "title": "Flervarre - Seminarium 29/1"
+        "title": "Flervarre - Seminarium 29/1",
+        "date": "Januari 29, 2018 08:00:00"
     },
     {
         "id": 4,
-        "title": "Flervarre - Seminarium 5/2"
+        "title": "Flervarre - Seminarium 5/2",
+        "date": "February 5, 2018 08:00:00"
     },
     {
         "id": 5,
-        "title": "Databas - Övning 6/2"
+        "title": "Databas - Övning 6/2",
+        "date": "February 6, 2018 08:00:00"
     },
     {
         "id": 6,
-        "title": "Databas - Labb 7/2"
+        "title": "Databas - Labb 7/2",
+        "date": "February 7, 2018 08:00:00"
     },
     {
         "id": 7,
-        "title": "Flervarre - Seminarium 12/2"
+        "title": "Flervarre - Seminarium 12/2",
+        "date": "February 12, 2018 08:00:00"
     },
     {
         "id": 8,
-        "title": "Databas - Övning 15/2"
+        "title": "Databas - Övning 15/2",
+        "date": "February 15, 2018 08:00:00"
     },
     {
         "id": 9,
-        "title": "Databas - Labb 16/2"
+        "title": "Databas - Labb 16/2",
+        "date": "February 16, 2018 08:00:00"
     },
     {
         "id": 10,
-        "title": "Databas - Övning 22/2"
+        "title": "Databas - Övning 22/2",
+        "date": "February 22, 2018 08:00:00"
     },
     {
         "id": 11,
-        "title": "Databas - Labb 23/2"
+        "title": "Databas - Labb 23/2",
+        "date": "February 23, 2018 08:00:00"
     },
     {
         "id": 12,
-        "title": "Flervarre - Seminarium 23/2"
+        "title": "Flervarre - Seminarium 23/2",
+        "date": "February 23, 2018 08:00:00"
     },
     {
         "id": 13,
-        "title": "Flervarre - Seminarium 26/2"
+        "title": "Flervarre - Seminarium 26/2",
+        "date": "February 26, 2018 08:00:00"
     },
     {
         "id": 14,
-        "title": "Databas - Övning 1/3"
+        "title": "Databas - Övning 1/3",
+        "date": "Mars 1, 2018 08:00:00"
     },
     {
         "id": 15,
-        "title": "Databas - Labb 2/3"
+        "title": "Databas - Labb 2/3",
+        "date": "Mars 2, 2018 08:00:00"
     }
 
     
